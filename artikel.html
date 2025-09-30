@@ -1,23 +1,84 @@
 <html>
     <head>
-        <title>Artikel</title> 
+        <title>Latihan HTML</title> 
     </head>
 
     <body>
         <h1>Penerimaan Mahasiswa Baru Gelombang 1: Tanggal 01-14 Agustus 2025</h1>
-        <br>
-        <h5>
-            30 Agustus 2025 11:52:29 WIB
-        </h5>
-        <br>
-        <img src="https://harkatnegeri.ac.id/storage/images/article_Penerimaan_Mahasiswa_Baru_Gelombang_1:_Tanggal_01%E2%80%9314_Agustus_2025.jpg"/>
-        <br>
-        <h3>
-            The standard Lorem Ipsum passage, used since the 1500s
-        </h3>
-        <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+        <h5>30 Agustus 2025 11:52:29 WIB</h5>
+        
+        <img src="https://harkatnegeri.ac.id/storage/images/article_Penerimaan_Mahasiswa_Baru_Gelombang_1:_Tanggal_01%E2%80%9314_Agustus_2025.jpg" 
+             alt="Poster Penerimaan Mahasiswa Baru" width="400"/>
 
+        <h3>Penerimaan Mahasiswa Baru Tahun 2025</h3>
+        <p>
+            Penerimaan mahasiswa baru gelombang pertama akan dilaksanakan pada tanggal 01–14 Agustus 2025. 
+            Proses seleksi dilakukan secara transparan dan terbuka untuk semua calon mahasiswa yang memenuhi syarat. 
+            Peserta diharapkan menyiapkan dokumen administrasi dengan lengkap agar mempermudah proses pendaftaran. 
+            Melalui penerimaan ini, diharapkan terjaring generasi muda yang berprestasi, berkarakter, dan siap berkontribusi 
+            dalam pembangunan bangsa.
+        </p>
+        <hr>
+
+        <h2>Jadwal Pendaftaran</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>No</th>
+                <th>Kegiatan</th>
+                <th>Tanggal</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pendaftaran Gelombang 1</td>
+                <td>01 - 14 Agustus 2025</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Seleksi</td>
+                <td>20 Agustus 2025</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pengumuman</td>
+                <td>25 Agustus 2025</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2>Syarat Pendaftaran</h2>
+        <ul>
+            <li>Fotokopi Ijazah SMA</li>
+            <li>Pas Foto 3x4 (3 lembar)</li>
+            <li>Formulir Pendaftaran</li>
+            <li>Biaya Pendaftaran Rp 200.000</li>
+        </ul>
+
+        <hr>
+
+        <h2>Formulir Pendaftaran Online</h2>
+        <form action="#" method="post">
+            <label>Nama Lengkap:</label><br>
+            <input type="text" name="nama"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Pilih Jurusan:</label><br>
+            <select name="jurusan">
+                <option>Teknik Informatika</option>
+                <option>Sistem Informasi</option>
+                <option>Manajemen</option>
+                <option>Akuntansi</option>
+            </select><br><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+            <input type="radio" name="gender" value="Perempuan"> Perempuan
+            <br><br>
+
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Reset">
+        </form>
     </body>
 </html>
